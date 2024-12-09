@@ -74,6 +74,8 @@ body {
     .link:hover {
         background-color: var(--accentColor);
         color: var(--bgColor);
+        scale: 1.05;
+        transition-duration: 0.5s;
     }
 }
 
