@@ -1,77 +1,283 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Data Lille | Liens</title>
-        <!-- Font Awesome icons -->
-        <link rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-        <!-- Core theme CSS -->
-        <link rel="stylesheet" href="style.css">
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Lille, la communauté data de la métropole lilloise</title>
+  <meta name="description" content="Data Lille est l'association des passionnés de data et d'IA de la métropole lilloise. Meetups data depuis 2017, organisateurs des Data Days Lille.">
+  <link rel="canonical" href="https://data-lille.fr/">
+  <meta name="theme-color" content="#e9006e">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/fonts/MonaSans.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/style.css">
 
-        <meta property="og:title" content="Liens de l'association Data Lille" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://data-lille.fr" />
-        <meta property="og:image" content="
-        https://data-lille.fr/logo-petit.png"
-        <meta property="og:logo" content="https://data-lille.fr/logo-petit.png" />
-        <meta property="og:description" content="Data Lille est une association qui fédère les amateurs de data dans la métropole lilloise ; retrouvez ici tous nos prochains événements." />
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Data Lille">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:url" content="https://data-lille.fr/">
+  <meta property="og:title" content="Data Lille, la communauté data de la métropole lilloise">
+  <meta property="og:description" content="Meetups data et IA à Lille depuis 2017, et les Data Days Lille le 26 mars 2027.">
+  <meta property="og:image" content="https://data-lille.fr/logo-petit.png">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/"><img src="/logo-petit.png" alt="" width="36" height="36"> Data Lille</a>
+    <nav>
+      <a href="#data-days">Data Days</a>
+      <a href="#equipe">L'équipe</a>
+      <a href="#meetups">Meetups</a>
+      <a href="#soutenir">Nous soutenir</a>
+    </nav>
+  </header>
 
-    </head>
-
-    <body>
-        <!-- Parallax Pixel Background Animation -->
-        <section class="animated-background">
-            <div id="stars1"></div>
-            <div id="stars2"></div>
-            <div id="stars3"></div>
-        </section>
-        <!-- End of Parallax Pixel Background Animation -->
-
-        <a id="profilePicture">
-            <img src="logo-petit.png"
-                alt="Data Lille Logo">
-        </a>
-
-        <div class="overlay" id="popup">
-            <div class="popup">
-                <div class="popup-quote">
-                    Code is like humor. When you have to explain it, it’s bad
-                </div>
-                <a class="popup-close" onclick="history.back()">&times;</a>
-            </div>
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="kicker">Asso data Lille</p>
+        <h1>La communauté <span>data & IA</span> de la métropole lilloise</h1>
+        <p class="lead">
+          Depuis 2017, on réunit celles et ceux qui font de la data à Lille : data engineers, data scientists,
+          analystes, curieux. Des meetups toute l'année, et une grande journée par an, les Data Days.
+        </p>
+        <div class="actions">
+          <a class="btn" href="https://www.meetup.com/data-lille/" target="_blank" rel="noopener">Rejoindre le groupe Meetup</a>
+          <a class="btn btn-ghost" href="https://days.data-lille.fr/">Data Days 2027</a>
         </div>
+      </div>
+      <img class="hero-logo" src="/logo.png" alt="Logo Data Lille" width="320" height="341">
+    </section>
 
-        <div id="userName">
-            Data Lille est l'association des passionnés de data de la métropole lilloise.
+    <section class="stats" aria-label="Data Lille en chiffres">
+      <a href="#meetups"><strong>49</strong><span>meetups organisés</span></a>
+      <div><strong>3 300+</strong><span>inscriptions aux meetups</span></div>
+      <div><strong>2 400+</strong><span>membres sur Meetup</span></div>
+      <div><strong>3<sup>e</sup></strong><span>édition des Data Days</span></div>
+    </section>
+
+    <section id="prochain-meetup" class="block next-block">
+      <h2 class="subhead">Prochain meetup</h2>
+      <a class="next" href="https://www.meetup.com/data-lille/events/316991799/" target="_blank" rel="noopener">
+        <div class="next-date"><strong>5</strong><span>nov. 2026</span></div>
+        <div class="next-body">
+          <h4>Data Quality &amp; Data Contracts : reprendre le contrôle sur ses données</h4>
+          <p>18h45 · Le Wagon, Lille · 58 inscrits</p>
+          <span class="btn">S'inscrire sur Meetup</span>
         </div>
+      </a>
+    </section>
 
+    <section id="data-days" class="days">
+      <div>
+        <p class="kicker">Notre événement annuel</p>
+        <h2>Data Days Lille 2027</h2>
+        <p class="days-date">26 mars 2027 · Université Catholique de Lille</p>
+        <p>Une journée de conférences, quick talks et ateliers pratiques sur la data et l'IA. Le call for papers et les inscriptions ouvrent bientôt.</p>
+        <a class="btn" href="https://days.data-lille.fr/">Découvrir les Data Days</a>
+      </div>
+      <img src="https://days.data-lille.fr/2027/static/images/og-2027.jpg" alt="Data Days Lille, 26 mars 2027" width="600" height="315">
+    </section>
 
+    <section id="equipe" class="block">
+      <h2>L'équipe</h2>
+      <p class="intro">Data Lille est portée par une équipe de bénévoles. Chacun a son rôle, et on se partage toute l'organisation : idées d'événements, sélection des talks, formats, accueil.</p>
+      <ul class="team">
+        <li>
+          <img src="/images/equipe/thibault-giordan.jpg" alt="" loading="lazy" width="300" height="300">
+          <strong>Thibault Giordan</strong>
+          <em>Président</em>
+          <span>Responsable Data & IA, Thibault Giordan Conseil</span>
+          <a href="https://www.linkedin.com/in/thibault-giordan-8b3b26b0/" target="_blank" rel="noopener">LinkedIn</a>
+        </li>
+        <li>
+          <img src="/images/equipe/valentin-demey.jpg" alt="" loading="lazy" width="300" height="300">
+          <strong>Valentin Demey</strong>
+          <em>Trésorier</em>
+          <span>Data Engineer, IA & MLOps chez Lesaffre</span>
+          <a href="https://www.linkedin.com/in/valentin-demey/" target="_blank" rel="noopener">LinkedIn</a>
+        </li>
+        <li>
+          <img src="/images/equipe/julie-adalian.jpg" alt="" loading="lazy" width="300" height="300">
+          <strong>Julie Adalian</strong>
+          <em>Responsable pôle sponsoring</em>
+          <span>Data Scientist chez Lesaffre International</span>
+          <a href="https://www.linkedin.com/in/julie-adalian-23a110143/" target="_blank" rel="noopener">LinkedIn</a>
+        </li>
+        <li>
+          <img src="/images/equipe/renaud-ducrocq.jpg" alt="" loading="lazy" width="300" height="300">
+          <strong>Renaud Ducrocq</strong>
+          <em>Responsable pôle logistique</em>
+          <span>Ingénieur Cloud GCP & développeur Python</span>
+          <a href="https://www.linkedin.com/in/renaud-ducrocq-627665237/" target="_blank" rel="noopener">LinkedIn</a>
+        </li>
+        <li>
+          <img src="/images/equipe/matthieu-falce.jpg" alt="" loading="lazy" width="300" height="300">
+          <strong>Matthieu Falce</strong>
+          <em>Responsable pôle événementiel</em>
+          <span>CTO as a Service, Tech Lead & Data Engineering freelance</span>
+          <a href="https://www.linkedin.com/in/matthieu-falce/" target="_blank" rel="noopener">LinkedIn</a>
+        </li>
+      </ul>
+    </section>
 
-        <div id="links">
-            <a class="link" href="https://days.data-lille.fr/" target="_blank">
-                <i class="fa fa-link">&nbsp;</i>Les data days
-            </a>
+    <section id="meetups" class="block">
+      <h2>Les meetups</h2>
+      <p class="intro">
+        Deux talks, des questions, un verre : un format simple, chez une entreprise ou une école de la métropole.
+        Les inscriptions se font sur Meetup.
+      </p>
 
-            <a class="link" href="https://www.meetup.com/data-lille/" target="_blank">
-                <i class="fab fa-meetup">&nbsp;</i>Nos événements sur Meetup
-            </a>
-            <a class="link" href="https://www.linkedin.com/company/data-lille"
-                target="_blank">
-                <i class="fab fa-linkedin">&nbsp;</i>LinkedIn
-            </a>
-            <a class="link" href="mailto:meetup.data.lille@gmail.com" target="_blank">
-                <i class="fa fa-envelope">&nbsp;</i>Nous soutenir <br/>(sponsoring, adhésion, speakers)
-            </a>
-        </div>
-        <div id="hashtag">
-            #NeverStopLearning
-        </div>
-    </body>
+      <h3 class="subhead">Les meetups passés</h3>
+      <table class="past">
+        <thead><tr><th scope="col">Date</th><th scope="col">Meetup</th><th scope="col">Lieu</th><th scope="col">Inscrits</th></tr></thead>
+        <tbody>
+          <tr class="year"><th colspan="4" scope="rowgroup">2026 <span>1 meetup · 64 inscrits</span></th></tr>
+          <tr><td>28/09</td><td><a href="https://www.meetup.com/data-lille/events/316466639/" target="_blank" rel="noopener">Data et IA souveraine</a></td><td>Ruche d&#x27;entreprises de Lille-Hellemmes, Lille</td><td>64</td></tr>
+        </tbody>
+        <tbody>
+          <tr class="year"><th colspan="4" scope="rowgroup">2025 <span>1 meetup · 78 inscrits</span></th></tr>
+          <tr><td>06/11</td><td><a href="https://www.meetup.com/data-lille/events/311356030/" target="_blank" rel="noopener">L’IA dans l’édition de logiciel et l’industrie</a></td><td>French Tech Lille, Lille</td><td>78</td></tr>
+        </tbody>
+        <tbody>
+          <tr class="year"><th colspan="4" scope="rowgroup">2024 <span>5 meetups · 426 inscrits</span></th></tr>
+          <tr><td>05/12</td><td><a href="https://www.meetup.com/data-lille/events/304557066/" target="_blank" rel="noopener">Retour d&#x27;expérience sur la GenAI</a></td><td>Cofidis, Villeneuve-d&#x27;Ascq</td><td>88</td></tr>
+          <tr><td>26/09</td><td><a href="https://www.meetup.com/data-lille/events/303111526/" target="_blank" rel="noopener">Kestra au service de la Data et de l’IA</a></td><td>EuraTechnologies, Lille</td><td>79</td></tr>
+          <tr><td>13/06</td><td><a href="https://www.meetup.com/data-lille/events/301054876/" target="_blank" rel="noopener">DBT et Data quality</a></td><td>Devoteam, Lille</td><td>79</td></tr>
+          <tr><td>14/03</td><td><a href="https://www.meetup.com/data-lille/events/299288343/" target="_blank" rel="noopener">Meetup DataOps</a></td><td>Simplon, Lille</td><td>86</td></tr>
+          <tr><td>16/01</td><td><a href="https://www.meetup.com/data-lille/events/298070905/" target="_blank" rel="noopener">Meetup Data : REX Snowflake &amp; Data Quality</a></td><td>Roquette, La Madeleine</td><td>94</td></tr>
+        </tbody>
+      </table>
+
+      <details class="older">
+        <summary>Voir les meetups de 2017 à 2023 <span>41 meetups · 2 739 inscrits</span></summary>
+        <table class="past">
+        <thead><tr><th scope="col">Date</th><th scope="col">Meetup</th><th scope="col">Lieu</th><th scope="col">Inscrits</th></tr></thead>
+        <tbody>
+          <tr class="year"><th colspan="4" scope="rowgroup">2023 <span>7 meetups · 478 inscrits</span></th></tr>
+          <tr><td>07/12</td><td><a href="https://www.meetup.com/data-lille/events/297394662/" target="_blank" rel="noopener">Meetup Data : Apache pulsar &amp; une IA qui joue à Tetris !</a></td><td>Village by CA, Lille</td><td>64</td></tr>
+          <tr><td>09/11</td><td><a href="https://www.meetup.com/data-lille/events/296794222/" target="_blank" rel="noopener">Meetup Data ! MLflow et Détection de piscines par l&#x27;IA</a></td><td>CCI Grand Lille, Lille</td><td>69</td></tr>
+          <tr><td>05/10</td><td><a href="https://www.meetup.com/data-lille/events/295947165/" target="_blank" rel="noopener">Meetup IA ! Explicabilité et Handicap</a></td><td>Epsi Lille, Lille</td><td>67</td></tr>
+          <tr><td>15/06</td><td><a href="https://www.meetup.com/data-lille/events/293755139/" target="_blank" rel="noopener">Data summer Meetup - ChatGPT et Stratégie Analytics</a></td><td>Inetum, Lille</td><td>89</td></tr>
+          <tr><td>13/04</td><td><a href="https://www.meetup.com/data-lille/events/292422941/" target="_blank" rel="noopener">Data &amp; Sustainability</a></td><td>Epitech, Lille</td><td>53</td></tr>
+          <tr><td>09/03</td><td><a href="https://www.meetup.com/data-lille/events/291639813/" target="_blank" rel="noopener">Meetup MLOps, le machine learning mis en production !</a></td><td>Junia Isen Lille, Lille</td><td>95</td></tr>
+          <tr><td>19/01</td><td><a href="https://www.meetup.com/data-lille/events/290477425/" target="_blank" rel="noopener">Meetup Data-science : REX de l&#x27;outil KNIME et l&#x27;IA pour le recrutement</a></td><td>Junia Isen Lille, Lille</td><td>41</td></tr>
+        </tbody>
+        <tbody>
+          <tr class="year"><th colspan="4" scope="rowgroup">2022 <span>3 meetups · 237 inscrits</span></th></tr>
+          <tr><td>30/11</td><td><a href="https://www.meetup.com/data-lille/events/289769377/" target="_blank" rel="noopener">« Data Mesh » du concept à la réalité !!</a></td><td>Auchan Consigne Terradéo, Ronchin</td><td>59</td></tr>
+          <tr><td>31/03</td><td><a href="https://www.meetup.com/data-lille/events/284207282/" target="_blank" rel="noopener">Google BigQuery 101 et Deep-learning pour la détection de cartes à jouer</a></td><td>Polytech Lille, Villeneuve-d&#x27;Ascq</td><td>74</td></tr>
+          <tr><td>24/02</td><td><a href="https://www.meetup.com/data-lille/events/283609004/" target="_blank" rel="noopener">Industrialisation de solutions IA à Decathlon</a></td><td>Decathlon Campus, Villeneuve-d&#x27;Ascq</td><td>104</td></tr>
+        </tbody>
+        <tbody>
+          <tr class="year"><th colspan="4" scope="rowgroup">2021 <span>5 meetups · 295 inscrits</span></th></tr>
+          <tr><td>30/06</td><td><a href="https://www.meetup.com/data-lille/events/278401209/" target="_blank" rel="noopener">L&#x27;ordonnancement avec Airflow (en présentiel)</a></td><td>En ligne</td><td>56</td></tr>
+          <tr><td>27/05</td><td><a href="https://www.meetup.com/data-lille/events/278116728/" target="_blank" rel="noopener">Introduction au NLP et à la computer vision avec OVHcloud</a></td><td>En ligne</td><td>70</td></tr>
+          <tr><td>15/04</td><td><a href="https://www.meetup.com/data-lille/events/277246761/" target="_blank" rel="noopener">Blockchain au service de la data science avec Communify</a></td><td>En ligne</td><td>45</td></tr>
+          <tr><td>18/02</td><td><a href="https://www.meetup.com/data-lille/events/275747751/" target="_blank" rel="noopener">Aide à la maintenance grâce à la data chez OVHcloud</a></td><td>En ligne</td><td>64</td></tr>
+          <tr><td>14/01</td><td><a href="https://www.meetup.com/data-lille/events/275099939/" target="_blank" rel="noopener">Retour d&#x27;expérience sur la stratégie data de Sencrop</a></td><td>En ligne</td><td>60</td></tr>
+        </tbody>
+        <tbody>
+          <tr class="year"><th colspan="4" scope="rowgroup">2020 <span>6 meetups · 444 inscrits</span></th></tr>
+          <tr><td>10/12</td><td><a href="https://www.meetup.com/data-lille/events/274903205/" target="_blank" rel="noopener">La généralisation des modèles en production</a></td><td>En ligne</td><td>56</td></tr>
+          <tr><td>04/11</td><td><a href="https://www.meetup.com/data-lille/events/274107358/" target="_blank" rel="noopener">Les grandes erreurs en statistiques</a></td><td>En ligne</td><td>76</td></tr>
+          <tr><td>01/10</td><td><a href="https://www.meetup.com/data-lille/events/272977371/" target="_blank" rel="noopener">Deep learning &amp; imagerie médicale</a></td><td>En ligne</td><td>51</td></tr>
+          <tr><td>13/02</td><td><a href="https://www.meetup.com/data-lille/events/267935173/" target="_blank" rel="noopener">Les technologies Elastic &amp; la data</a></td><td>Epitech, Lille</td><td>94</td></tr>
+          <tr><td>05/02</td><td><a href="https://www.meetup.com/data-lille/events/268087762/" target="_blank" rel="noopener">FAST AI V2</a></td><td>La Grappe, Lille</td><td>27</td></tr>
+          <tr><td>15/01</td><td><a href="https://www.meetup.com/data-lille/events/267291421/" target="_blank" rel="noopener">Deep-learning, use case et mise en production</a></td><td>La Grappe, Lille</td><td>140</td></tr>
+        </tbody>
+        <tbody>
+          <tr class="year"><th colspan="4" scope="rowgroup">2019 <span>13 meetups · 666 inscrits</span></th></tr>
+          <tr><td>12/12</td><td><a href="https://www.meetup.com/data-lille/events/266968223/" target="_blank" rel="noopener">FAST.AI V2</a></td><td>Epitech, Lille</td><td>24</td></tr>
+          <tr><td>21/11</td><td><a href="https://www.meetup.com/data-lille/events/266435637/" target="_blank" rel="noopener">FAST AI V2</a></td><td>Epitech, Lille</td><td>20</td></tr>
+          <tr><td>14/11</td><td><a href="https://www.meetup.com/data-lille/events/265949940/" target="_blank" rel="noopener">Intelligence artificielle : Stratégies et innovations</a></td><td>Decathlon Campus, Villeneuve-d&#x27;Ascq</td><td>154</td></tr>
+          <tr><td>30/10</td><td><a href="https://www.meetup.com/data-lille/events/265900024/" target="_blank" rel="noopener">FAST AI V2</a></td><td>La Grappe, Lille</td><td>34</td></tr>
+          <tr><td>26/09</td><td><a href="https://www.meetup.com/data-lille/events/264625806/" target="_blank" rel="noopener">Data et IoT de nombreuses données pour de nombreux usages</a></td><td>Polytech Lille, Villeneuve-d&#x27;Ascq</td><td>82</td></tr>
+          <tr><td>27/06</td><td><a href="https://www.meetup.com/data-lille/events/262439521/" target="_blank" rel="noopener">Master class fast.ai n°6</a></td><td>La Grappe, Lille</td><td>11</td></tr>
+          <tr><td>06/06</td><td><a href="https://www.meetup.com/data-lille/events/262089227/" target="_blank" rel="noopener">Master class fast.ai n°5</a></td><td>La Grappe, Lille</td><td>8</td></tr>
+          <tr><td>16/05</td><td><a href="https://www.meetup.com/data-lille/events/261357874/" target="_blank" rel="noopener">Master class fast.ai n°4</a></td><td>La Grappe, Lille</td><td>13</td></tr>
+          <tr><td>02/05</td><td><a href="https://www.meetup.com/data-lille/events/260803802/" target="_blank" rel="noopener">Master class fast.ai n°3</a></td><td>La Grappe, Lille</td><td>22</td></tr>
+          <tr><td>11/04</td><td><a href="https://www.meetup.com/data-lille/events/260394077/" target="_blank" rel="noopener">Master class fast.ai n°2</a></td><td>La Grappe, Lille</td><td>19</td></tr>
+          <tr><td>20/03</td><td><a href="https://www.meetup.com/data-lille/events/259667026/" target="_blank" rel="noopener">Master class : découverte du Deep-learning et de Fast.ai</a></td><td>Linkvalue Lille, Lille</td><td>38</td></tr>
+          <tr><td>28/02</td><td><a href="https://www.meetup.com/data-lille/events/258650491/" target="_blank" rel="noopener">Alteryx et Tableau</a></td><td>La Grappe, Lille</td><td>78</td></tr>
+          <tr><td>10/01</td><td><a href="https://www.meetup.com/data-lille/events/257126069/" target="_blank" rel="noopener">Deep learning et temps réel au service du retail</a></td><td>Polytech Lille, Villeneuve-d&#x27;Ascq</td><td>163</td></tr>
+        </tbody>
+        <tbody>
+          <tr class="year"><th colspan="4" scope="rowgroup">2018 <span>4 meetups · 321 inscrits</span></th></tr>
+          <tr><td>04/10</td><td><a href="https://www.meetup.com/data-lille/events/254877257/" target="_blank" rel="noopener">Retour d&#x27;expérience : les données vs la vraie vie</a></td><td>Polytech Lille, Villeneuve-d&#x27;Ascq</td><td>100</td></tr>
+          <tr><td>28/06</td><td><a href="https://www.meetup.com/data-lille/events/250934366/" target="_blank" rel="noopener">Meetup Bigdata/ML/AI sur AWS en collaboration avec AWS Lille</a></td><td>Decathlon Campus, Villeneuve-d&#x27;Ascq</td><td>74</td></tr>
+          <tr><td>05/04</td><td><a href="https://www.meetup.com/data-lille/events/245438766/" target="_blank" rel="noopener">Meetup #15: challenges et Hackathon Big Data</a></td><td>Université de Lille, Villeneuve-d&#x27;Ascq</td><td>67</td></tr>
+          <tr><td>15/02</td><td><a href="https://www.meetup.com/data-lille/events/247277065/" target="_blank" rel="noopener">Meetup #13: Oracle, DataViz &amp; Éthique</a></td><td>Polytech Lille, Villeneuve-d&#x27;Ascq</td><td>80</td></tr>
+        </tbody>
+        <tbody>
+          <tr class="year"><th colspan="4" scope="rowgroup">2017 <span>3 meetups · 298 inscrits</span></th></tr>
+          <tr><td>14/12</td><td><a href="https://www.meetup.com/data-lille/events/243878111/" target="_blank" rel="noopener">Meetup #11: recherche à l&#x27;INRIA</a></td><td>INRIA, Villeneuve-d&#x27;Ascq</td><td>81</td></tr>
+          <tr><td>09/11</td><td><a href="https://www.meetup.com/data-lille/events/243878036/" target="_blank" rel="noopener">Meetup #10: Spark avec Tim Hunter</a></td><td>Polytech Lille, Villeneuve-d&#x27;Ascq</td><td>135</td></tr>
+          <tr><td>12/10</td><td><a href="https://www.meetup.com/data-lille/events/239349970/" target="_blank" rel="noopener">Meetup #9: RGPD + Machine Learning</a></td><td>Polytech Lille, Villeneuve-d&#x27;Ascq</td><td>82</td></tr>
+        </tbody>
+        </table>
+      </details>
+    </section>
+
+    <section class="block hosts">
+      <h2>Ils nous ont accueillis</h2>
+      <ul class="host-list">
+        <li>La Grappe</li>
+        <li>Polytech Lille</li>
+        <li>Epitech</li>
+        <li>Junia Isen Lille</li>
+        <li>Decathlon Campus</li>
+        <li>Le Wagon</li>
+        <li>Ruche d&#x27;entreprises de Lille-Hellemmes</li>
+        <li>French Tech Lille</li>
+        <li>Cofidis</li>
+        <li>EuraTechnologies</li>
+        <li>CCI Grand Lille</li>
+        <li>Epsi Lille</li>
+        <li>Auchan Consigne Terradéo</li>
+        <li>Linkvalue Lille</li>
+        <li>Université de Lille</li>
+        <li>INRIA</li>
+        <li>Roquette</li>
+        <li>Village by CA</li>
+        <li>Inetum</li>
+        <li>Simplon</li>
+        <li>Devoteam</li>
+      </ul>
+    </section>
+
+    <section id="soutenir" class="block support">
+      <h2>Nous soutenir</h2>
+      <div class="support-grid">
+        <article>
+          <h3>Proposer un talk</h3>
+          <p>Un retour d'expérience, un outil, une erreur instructive : tous les sujets data et IA nous intéressent, débutants bienvenus.</p>
+        </article>
+        <article>
+          <h3>Accueillir un meetup</h3>
+          <p>Prêtez-nous une salle pour un soir : c'est le meilleur moyen de faire connaître votre équipe data à la communauté.</p>
+        </article>
+        <article>
+          <h3>Sponsoriser</h3>
+          <p>Meetups ou Data Days : gagnez en visibilité auprès de la communauté data lilloise et rencontrez des talents.</p>
+        </article>
+      </div>
+      <a class="btn" href="mailto:meetup.data.lille@gmail.com">Nous écrire</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="hashtag">#NeverStopLearning</p>
+    <ul>
+      <li><a href="https://www.meetup.com/data-lille/" target="_blank" rel="noopener">Meetup</a></li>
+      <li><a href="https://www.linkedin.com/company/data-lille" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://days.data-lille.fr/">Data Days</a></li>
+      <li><a href="mailto:meetup.data.lille@gmail.com">meetup.data.lille@gmail.com</a></li>
+    </ul>
+  </footer>
+
+</body>
 </html>
