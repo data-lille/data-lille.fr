@@ -1,0 +1,36 @@
+name: Mise à jour des meetups
+
+on:
+  schedule:
+    - cron: "0 8 * * 5" # chaque vendredi à 8h UTC (9h ou 10h à Paris)
+  workflow_dispatch: # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  maj:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lire meetup.com et régénérer la page
+        run: python3 scripts/maj_meetups.py
+
+      # Ouvre une PR sur la branche auto/meetups s'il y a une différence.
+      # Si la PR existe déjà, elle est mise à jour au lieu d'en ouvrir une nouvelle.
+      # S'il n'y a aucune différence, rien n'est créé.
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/meetups
+          delete-branch: true
+          commit-message: "chore: mise à jour automatique des meetups"
+          title: "Mise à jour des meetups"
+          body: |
+            Mise à jour automatique depuis https://www.meetup.com/data-lille/ :
+            prochain meetup, tableau des meetups passés, nombre d'inscrits et chiffres clés.
+
+            Les nouveaux lieux viennent de Meetup (souvent une simple adresse) :
+            corrigez-les dans `meetups.json` si besoin, le script garde vos corrections.
+          labels: automatique

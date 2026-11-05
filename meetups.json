@@ -1,0 +1,443 @@
+[
+  {
+    "id": "316991799",
+    "date": "2026-11-05",
+    "time": "18:45",
+    "title": "Data Quality & Data Contracts : reprendre le contrôle sur ses données",
+    "venue": "Le Wagon, Lille",
+    "inscrits": 58,
+    "url": "https://www.meetup.com/data-lille/events/316991799/"
+  },
+  {
+    "id": "316466639",
+    "date": "2026-09-28",
+    "time": "18:30",
+    "title": "Data et IA souveraine",
+    "venue": "Ruche d'entreprises de Lille-Hellemmes, Lille",
+    "inscrits": 64,
+    "url": "https://www.meetup.com/data-lille/events/316466639/"
+  },
+  {
+    "id": "311356030",
+    "date": "2025-11-06",
+    "time": "18:30",
+    "title": "L’IA dans l’édition de logiciel et l’industrie",
+    "venue": "French Tech Lille, Lille",
+    "inscrits": 78,
+    "url": "https://www.meetup.com/data-lille/events/311356030/"
+  },
+  {
+    "id": "304557066",
+    "date": "2024-12-05",
+    "time": "18:30",
+    "title": "Retour d'expérience sur la GenAI",
+    "venue": "Cofidis, Villeneuve-d'Ascq",
+    "inscrits": 88,
+    "url": "https://www.meetup.com/data-lille/events/304557066/"
+  },
+  {
+    "id": "303111526",
+    "date": "2024-09-26",
+    "time": "18:30",
+    "title": "Kestra au service de la Data et de l’IA",
+    "venue": "EuraTechnologies, Lille",
+    "inscrits": 79,
+    "url": "https://www.meetup.com/data-lille/events/303111526/"
+  },
+  {
+    "id": "301054876",
+    "date": "2024-06-13",
+    "time": "18:30",
+    "title": "DBT et Data quality",
+    "venue": "Devoteam, Lille",
+    "inscrits": 79,
+    "url": "https://www.meetup.com/data-lille/events/301054876/"
+  },
+  {
+    "id": "299288343",
+    "date": "2024-03-14",
+    "time": "18:30",
+    "title": "Meetup DataOps",
+    "venue": "Simplon, Lille",
+    "inscrits": 86,
+    "url": "https://www.meetup.com/data-lille/events/299288343/"
+  },
+  {
+    "id": "298070905",
+    "date": "2024-01-16",
+    "time": "18:30",
+    "title": "Meetup Data : REX Snowflake & Data Quality",
+    "venue": "Roquette, La Madeleine",
+    "inscrits": 94,
+    "url": "https://www.meetup.com/data-lille/events/298070905/"
+  },
+  {
+    "id": "297394662",
+    "date": "2023-12-07",
+    "time": "18:30",
+    "title": "Meetup Data : Apache pulsar & une IA qui joue à Tetris !",
+    "venue": "Village by CA, Lille",
+    "inscrits": 64,
+    "url": "https://www.meetup.com/data-lille/events/297394662/"
+  },
+  {
+    "id": "296794222",
+    "date": "2023-11-09",
+    "time": "18:15",
+    "title": "Meetup Data ! MLflow et Détection de piscines par l'IA",
+    "venue": "CCI Grand Lille, Lille",
+    "inscrits": 69,
+    "url": "https://www.meetup.com/data-lille/events/296794222/"
+  },
+  {
+    "id": "295947165",
+    "date": "2023-10-05",
+    "time": "18:30",
+    "title": "Meetup IA ! Explicabilité et Handicap",
+    "venue": "Epsi Lille, Lille",
+    "inscrits": 67,
+    "url": "https://www.meetup.com/data-lille/events/295947165/"
+  },
+  {
+    "id": "293755139",
+    "date": "2023-06-15",
+    "time": "18:30",
+    "title": "Data summer Meetup - ChatGPT et Stratégie Analytics",
+    "venue": "Inetum, Lille",
+    "inscrits": 89,
+    "url": "https://www.meetup.com/data-lille/events/293755139/"
+  },
+  {
+    "id": "292422941",
+    "date": "2023-04-13",
+    "time": "18:30",
+    "title": "Data & Sustainability",
+    "venue": "Epitech, Lille",
+    "inscrits": 53,
+    "url": "https://www.meetup.com/data-lille/events/292422941/"
+  },
+  {
+    "id": "291639813",
+    "date": "2023-03-09",
+    "time": "18:30",
+    "title": "Meetup MLOps, le machine learning mis en production !",
+    "venue": "Junia Isen Lille, Lille",
+    "inscrits": 95,
+    "url": "https://www.meetup.com/data-lille/events/291639813/"
+  },
+  {
+    "id": "290477425",
+    "date": "2023-01-19",
+    "time": "18:30",
+    "title": "Meetup Data-science : REX de l'outil KNIME et l'IA pour le recrutement",
+    "venue": "Junia Isen Lille, Lille",
+    "inscrits": 41,
+    "url": "https://www.meetup.com/data-lille/events/290477425/"
+  },
+  {
+    "id": "289769377",
+    "date": "2022-11-30",
+    "time": "18:00",
+    "title": "« Data Mesh » du concept à la réalité !!",
+    "venue": "Auchan Consigne Terradéo, Ronchin",
+    "inscrits": 59,
+    "url": "https://www.meetup.com/data-lille/events/289769377/"
+  },
+  {
+    "id": "284207282",
+    "date": "2022-03-31",
+    "time": "18:30",
+    "title": "Google BigQuery 101 et Deep-learning pour la détection de cartes à jouer",
+    "venue": "Polytech Lille, Villeneuve-d'Ascq",
+    "inscrits": 74,
+    "url": "https://www.meetup.com/data-lille/events/284207282/"
+  },
+  {
+    "id": "283609004",
+    "date": "2022-02-24",
+    "time": "18:30",
+    "title": "Industrialisation de solutions IA à Decathlon",
+    "venue": "Decathlon Campus, Villeneuve-d'Ascq",
+    "inscrits": 104,
+    "url": "https://www.meetup.com/data-lille/events/283609004/"
+  },
+  {
+    "id": "278401209",
+    "date": "2021-06-30",
+    "time": "18:30",
+    "title": "L'ordonnancement avec Airflow (en présentiel)",
+    "venue": "En ligne",
+    "inscrits": 56,
+    "url": "https://www.meetup.com/data-lille/events/278401209/"
+  },
+  {
+    "id": "278116728",
+    "date": "2021-05-27",
+    "time": "18:30",
+    "title": "Introduction au NLP et à la computer vision avec OVHcloud",
+    "venue": "En ligne",
+    "inscrits": 70,
+    "url": "https://www.meetup.com/data-lille/events/278116728/"
+  },
+  {
+    "id": "277246761",
+    "date": "2021-04-15",
+    "time": "18:30",
+    "title": "Blockchain au service de la data science avec Communify",
+    "venue": "En ligne",
+    "inscrits": 45,
+    "url": "https://www.meetup.com/data-lille/events/277246761/"
+  },
+  {
+    "id": "275747751",
+    "date": "2021-02-18",
+    "time": "18:30",
+    "title": "Aide à la maintenance grâce à la data chez OVHcloud",
+    "venue": "En ligne",
+    "inscrits": 64,
+    "url": "https://www.meetup.com/data-lille/events/275747751/"
+  },
+  {
+    "id": "275099939",
+    "date": "2021-01-14",
+    "time": "18:30",
+    "title": "Retour d'expérience sur la stratégie data de Sencrop",
+    "venue": "En ligne",
+    "inscrits": 60,
+    "url": "https://www.meetup.com/data-lille/events/275099939/"
+  },
+  {
+    "id": "274903205",
+    "date": "2020-12-10",
+    "time": "18:30",
+    "title": "La généralisation des modèles en production",
+    "venue": "En ligne",
+    "inscrits": 56,
+    "url": "https://www.meetup.com/data-lille/events/274903205/"
+  },
+  {
+    "id": "274107358",
+    "date": "2020-11-04",
+    "time": "18:20",
+    "title": "Les grandes erreurs en statistiques",
+    "venue": "En ligne",
+    "inscrits": 76,
+    "url": "https://www.meetup.com/data-lille/events/274107358/"
+  },
+  {
+    "id": "272977371",
+    "date": "2020-10-01",
+    "time": "18:45",
+    "title": "Deep learning & imagerie médicale",
+    "venue": "En ligne",
+    "inscrits": 51,
+    "url": "https://www.meetup.com/data-lille/events/272977371/"
+  },
+  {
+    "id": "267935173",
+    "date": "2020-02-13",
+    "time": "18:30",
+    "title": "Les technologies Elastic & la data",
+    "venue": "Epitech, Lille",
+    "inscrits": 94,
+    "url": "https://www.meetup.com/data-lille/events/267935173/"
+  },
+  {
+    "id": "268087762",
+    "date": "2020-02-05",
+    "time": "19:00",
+    "title": "FAST AI V2",
+    "venue": "La Grappe, Lille",
+    "inscrits": 27,
+    "url": "https://www.meetup.com/data-lille/events/268087762/"
+  },
+  {
+    "id": "267291421",
+    "date": "2020-01-15",
+    "time": "18:30",
+    "title": "Deep-learning, use case et mise en production",
+    "venue": "La Grappe, Lille",
+    "inscrits": 140,
+    "url": "https://www.meetup.com/data-lille/events/267291421/"
+  },
+  {
+    "id": "266968223",
+    "date": "2019-12-12",
+    "time": "19:00",
+    "title": "FAST.AI V2",
+    "venue": "Epitech, Lille",
+    "inscrits": 24,
+    "url": "https://www.meetup.com/data-lille/events/266968223/"
+  },
+  {
+    "id": "266435637",
+    "date": "2019-11-21",
+    "time": "19:00",
+    "title": "FAST AI V2",
+    "venue": "Epitech, Lille",
+    "inscrits": 20,
+    "url": "https://www.meetup.com/data-lille/events/266435637/"
+  },
+  {
+    "id": "265949940",
+    "date": "2019-11-14",
+    "time": "18:30",
+    "title": "Intelligence artificielle : Stratégies et innovations",
+    "venue": "Decathlon Campus, Villeneuve-d'Ascq",
+    "inscrits": 154,
+    "url": "https://www.meetup.com/data-lille/events/265949940/"
+  },
+  {
+    "id": "265900024",
+    "date": "2019-10-30",
+    "time": "19:00",
+    "title": "FAST AI V2",
+    "venue": "La Grappe, Lille",
+    "inscrits": 34,
+    "url": "https://www.meetup.com/data-lille/events/265900024/"
+  },
+  {
+    "id": "264625806",
+    "date": "2019-09-26",
+    "time": "18:30",
+    "title": "Data et IoT de nombreuses données pour de nombreux usages",
+    "venue": "Polytech Lille, Villeneuve-d'Ascq",
+    "inscrits": 82,
+    "url": "https://www.meetup.com/data-lille/events/264625806/"
+  },
+  {
+    "id": "262439521",
+    "date": "2019-06-27",
+    "time": "19:00",
+    "title": "Master class fast.ai n°6",
+    "venue": "La Grappe, Lille",
+    "inscrits": 11,
+    "url": "https://www.meetup.com/data-lille/events/262439521/"
+  },
+  {
+    "id": "262089227",
+    "date": "2019-06-06",
+    "time": "19:00",
+    "title": "Master class fast.ai n°5",
+    "venue": "La Grappe, Lille",
+    "inscrits": 8,
+    "url": "https://www.meetup.com/data-lille/events/262089227/"
+  },
+  {
+    "id": "261357874",
+    "date": "2019-05-16",
+    "time": "19:00",
+    "title": "Master class fast.ai n°4",
+    "venue": "La Grappe, Lille",
+    "inscrits": 13,
+    "url": "https://www.meetup.com/data-lille/events/261357874/"
+  },
+  {
+    "id": "260803802",
+    "date": "2019-05-02",
+    "time": "19:00",
+    "title": "Master class fast.ai n°3",
+    "venue": "La Grappe, Lille",
+    "inscrits": 22,
+    "url": "https://www.meetup.com/data-lille/events/260803802/"
+  },
+  {
+    "id": "260394077",
+    "date": "2019-04-11",
+    "time": "18:45",
+    "title": "Master class fast.ai n°2",
+    "venue": "La Grappe, Lille",
+    "inscrits": 19,
+    "url": "https://www.meetup.com/data-lille/events/260394077/"
+  },
+  {
+    "id": "259667026",
+    "date": "2019-03-20",
+    "time": "19:00",
+    "title": "Master class : découverte du Deep-learning et de Fast.ai",
+    "venue": "Linkvalue Lille, Lille",
+    "inscrits": 38,
+    "url": "https://www.meetup.com/data-lille/events/259667026/"
+  },
+  {
+    "id": "258650491",
+    "date": "2019-02-28",
+    "time": "18:45",
+    "title": "Alteryx et Tableau",
+    "venue": "La Grappe, Lille",
+    "inscrits": 78,
+    "url": "https://www.meetup.com/data-lille/events/258650491/"
+  },
+  {
+    "id": "257126069",
+    "date": "2019-01-10",
+    "time": "19:00",
+    "title": "Deep learning et temps réel au service du retail",
+    "venue": "Polytech Lille, Villeneuve-d'Ascq",
+    "inscrits": 163,
+    "url": "https://www.meetup.com/data-lille/events/257126069/"
+  },
+  {
+    "id": "254877257",
+    "date": "2018-10-04",
+    "time": "18:45",
+    "title": "Retour d'expérience : les données vs la vraie vie",
+    "venue": "Polytech Lille, Villeneuve-d'Ascq",
+    "inscrits": 100,
+    "url": "https://www.meetup.com/data-lille/events/254877257/"
+  },
+  {
+    "id": "250934366",
+    "date": "2018-06-28",
+    "time": "19:00",
+    "title": "Meetup Bigdata/ML/AI sur AWS en collaboration avec AWS Lille",
+    "venue": "Decathlon Campus, Villeneuve-d'Ascq",
+    "inscrits": 74,
+    "url": "https://www.meetup.com/data-lille/events/250934366/"
+  },
+  {
+    "id": "245438766",
+    "date": "2018-04-05",
+    "time": "18:00",
+    "title": "Meetup #15: challenges et Hackathon Big Data",
+    "venue": "Université de Lille, Villeneuve-d'Ascq",
+    "inscrits": 67,
+    "url": "https://www.meetup.com/data-lille/events/245438766/"
+  },
+  {
+    "id": "247277065",
+    "date": "2018-02-15",
+    "time": "18:30",
+    "title": "Meetup #13: Oracle, DataViz & Éthique",
+    "venue": "Polytech Lille, Villeneuve-d'Ascq",
+    "inscrits": 80,
+    "url": "https://www.meetup.com/data-lille/events/247277065/"
+  },
+  {
+    "id": "243878111",
+    "date": "2017-12-14",
+    "time": "18:30",
+    "title": "Meetup #11: recherche à l'INRIA",
+    "venue": "INRIA, Villeneuve-d'Ascq",
+    "inscrits": 81,
+    "url": "https://www.meetup.com/data-lille/events/243878111/"
+  },
+  {
+    "id": "243878036",
+    "date": "2017-11-09",
+    "time": "18:30",
+    "title": "Meetup #10: Spark avec Tim Hunter",
+    "venue": "Polytech Lille, Villeneuve-d'Ascq",
+    "inscrits": 135,
+    "url": "https://www.meetup.com/data-lille/events/243878036/"
+  },
+  {
+    "id": "239349970",
+    "date": "2017-10-12",
+    "time": "18:30",
+    "title": "Meetup #9: RGPD + Machine Learning",
+    "venue": "Polytech Lille, Villeneuve-d'Ascq",
+    "inscrits": 82,
+    "url": "https://www.meetup.com/data-lille/events/239349970/"
+  }
+]
