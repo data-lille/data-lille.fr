@@ -313,6 +313,12 @@ h2 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 0.4em; }
 .team span { color: var(--muted); font-size: 0.9rem; line-height: 1.3; }
 .team a { font-weight: 700; font-size: 0.9rem; color: #0a66c2; margin-top: 0.2rem; }
 
+.team-small { grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 1.6rem 1rem; }
+.team-small img { width: 6.5rem; height: 6.5rem; box-shadow: 0 0 0 3px var(--cyan), 0 8px 18px rgba(38, 32, 27, 0.14); }
+.team-small strong { font-size: 1rem; }
+.team-small em { color: var(--dark); white-space: normal; }
+.team-small span { font-size: 0.82rem; }
+
 /* Soutenir */
 .support-grid {
   display: grid;
